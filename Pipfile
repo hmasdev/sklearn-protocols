@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+scikit-learn = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+flake8 = "*"
+mypy = "*"
+autopep8 = "*"
